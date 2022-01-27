@@ -9,7 +9,7 @@ function LandingPage() {
   }, [])
   return(
     <div>
-        LandingPage   랜딩페이지
+        LandingPage   랜딩페이지 인걸
     </div>
   )
 }
