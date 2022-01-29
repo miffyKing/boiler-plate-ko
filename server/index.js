@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const { User } = require("../models/User");
 
-const config = require('./config/key');
+const config = require('./config/key');     /////
 const {auth } = require('./middleware/auth');
 //application/ x-www-form-urlencoded 분석해서 가져올 수 있게 함
 app.use(bodyParser.urlencoded({extended: true}));     //client에서 오는 정보
